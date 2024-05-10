@@ -3,13 +3,23 @@
     font-weight: 400;
     font-style: normal;
   }
+h1{
+    font-family: "Style Script", cursive;
+    font-weight: 10;
+    font-style: normal;
+    
+}
 
-* {
-        font-family: "Style Script", cursive;
-        font-weight: 100;
-        font-style: normal;
-      };
-
+h2 b{
+    font-family: "Style Script", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+nav {
+    font-family: "Style Script", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
 
 .carousel-item{
     width: 100%;
@@ -19,21 +29,29 @@
   }
 .carousel-item img{
     width: auto;
-    object-fit: cover;
+    max-height: 300px;
 }
 .col {
     border: black 5px solid;
-    margin-top: 20px;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
     background-color: rgb(236, 202, 202);
     color: white;
     
 }
 .col img{
+    margin: .5%;
     height: 212px;
     width: 212px;
 }
 .col p{
     color: black;
+}
+.accordion-header{
+    font-family: "Style Script", cursive;
+    font-weight: 100;
+    font-style: normal;
 }
 .accordion-body{
     background-color: black;
@@ -50,6 +68,12 @@
     border: black solid 1px; 
     margin: 3px;
 }
+.HoursofOperation{
+    font-family: "Style Script", cursive;
+    font-weight: 100;
+    font-style: normal;
+    margin: 1%;
+}
 .HoursofOperation li{
     font-size:x-large;
     
@@ -57,6 +81,18 @@
 .HoursofOperation p{
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.google-maps {
+    margin: 1%;
+    position: relative;
+
+}
+
+.google-maps iframe {
+    border-radius: 15%;
+    height: 80%;
+    width: 80%;
+    position: absolute;
 }
 
 
@@ -71,9 +107,26 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-    .div img {
-        width: 100%;
-        height: 100px;
+
+    .StoreImage{
+        margin-left: 25%;
+        margin-right: 25%;
+}
+    .google-maps{
+        margin-left: 25%;
+        margin-right: 25%;
+        position: relative;
+    }
+    .google-maps iframe {
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        
+    }
+    .HoursofOperation {
+        margin-left: 25%;
+        margin-right: 25%;
+        
     }
 }
 
