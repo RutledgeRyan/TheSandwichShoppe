@@ -94,7 +94,29 @@ nav {
     width: 80%;
     position: absolute;
 }
+.container{
+    display: flexbox;
+    flex-wrap: wrap;
+}
+#left {
+    float:left;
+}
+#right {
+    float:right;
+}
+#center {
+    text-align:center;
+}
+section {
+    height: 50%;
+    width: 20%;
+    align-self:self-end;
+    text-align: center;
+    background-color: white;
+    border: solid black 2px;
+    
 
+}
 
 
 
