@@ -9,6 +9,11 @@ h1{
     font-style: normal;
     
 }
+h3{
+    font-family: "Style Script", cursive;
+    font-weight: 20;
+    font-style: normal;
+}
 
 h2 b{
     font-family: "Style Script", cursive;
@@ -115,9 +120,18 @@ section {
     text-align: center;
     background-color: white;
     border: solid black 2px;
-    
-
 }
+section img{
+    width: 300px;
+    height: 300px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black ;
+    
+      }
 
 
 
